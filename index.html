@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMAK - Orchestrate Multi-Cloud AKS | Advanced Kubernetes Management</title>
+    <meta name="description" content="OMAK - The ultimate free Kubernetes management tool for multi-cloud environments. Manage your AKS clusters with ease across Windows, macOS, and Linux.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-dharmachakra"></i>
+                <span>OMAK</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#docs">Documentation</a></li>
+                <li><a href="#community">Community</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Orchestrate Multi-Cloud AKS
+                    <span class="gradient-text">Like Never Before</span>
+                </h1>
+                <p class="hero-subtitle">
+                    OMAK is the ultimate free Kubernetes management tool designed for multi-cloud environments. 
+                    Manage, monitor, and optimize your AKS clusters with unprecedented ease and power.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary">
+                        <i class="fas fa-download"></i>
+                        Download Free
+                    </a>
+                    <a href="#features" class="btn btn-secondary">
+                        <i class="fas fa-play"></i>
+                        See Features
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Free & Open Source</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Platforms Supported</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">Clusters Manageable</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="dashboard-preview">
+                    <div class="dashboard-header">
+                        <div class="dashboard-controls">
+                            <span class="control red"></span>
+                            <span class="control yellow"></span>
+                            <span class="control green"></span>
+                        </div>
+                        <span class="dashboard-title">OMAK Dashboard</span>
+                    </div>
+                    <div class="dashboard-content">
+                        <div class="cluster-grid">
+                            <div class="cluster-card active">
+                                <div class="cluster-status"></div>
+                                <span>Production AKS</span>
+                            </div>
+                            <div class="cluster-card">
+                                <div class="cluster-status warning"></div>
+                                <span>Staging AKS</span>
+                            </div>
+                            <div class="cluster-card">
+                                <div class="cluster-status"></div>
+                                <span>Dev AKS</span>
+                            </div>
+                        </div>
+                        <div class="metrics-area">
+                            <div class="metric-line"></div>
+                            <div class="metric-line"></div>
+                            <div class="metric-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Powerful Features for Modern DevOps</h2>
+                <p>Everything you need to manage Kubernetes clusters across multiple cloud providers</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Multi-Cloud Support</h3>
+                    <p>Seamlessly manage AKS clusters across Azure, AWS, and Google Cloud from a single interface.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Real-time Monitoring</h3>
+                    <p>Monitor cluster health, resource usage, and performance metrics in real-time with beautiful dashboards.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                    <h3>Integrated Terminal</h3>
+                    <p>Built-in kubectl terminal with auto-completion and context switching for efficient cluster management.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Security Scanning</h3>
+                    <p>Automated security scans and compliance checks to ensure your clusters meet industry standards.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <h3>GitOps Integration</h3>
+                    <p>Native GitOps workflows with automated deployments and rollback capabilities.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-puzzle-piece"></i>
+                    </div>
+                    <h3>Plugin Ecosystem</h3>
+                    <p>Extensible architecture with a rich ecosystem of plugins and integrations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="comparison">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose OMAK?</h2>
+                <p>See how OMAK compares to other Kubernetes management tools</p>
+            </div>
+            <div class="comparison-table">
+                <div class="comparison-header">
+                    <div class="feature-col">Features</div>
+                    <div class="tool-col">
+                        <div class="tool-name omak">OMAK</div>
+                    </div>
+                    <div class="tool-col">
+                        <div class="tool-name">Lens</div>
+                    </div>
+                    <div class="tool-col">
+                        <div class="tool-name">Rancher</div>
+                    </div>
+                </div>
+                <div class="comparison-row">
+                    <div class="feature-name">Multi-Cloud AKS Focus</div>
+                    <div class="check-col"><i class="fas fa-check"></i></div>
+                    <div class="cross-col"><i class="fas fa-times"></i></div>
+                    <div class="partial-col"><i class="fas fa-minus"></i></div>
+                </div>
+                <div class="comparison-row">
+                    <div class="feature-name">Free & Open Source</div>
+                    <div class="check-col"><i class="fas fa-check"></i></div>
+                    <div class="check-col"><i class="fas fa-check"></i></div>
+                    <div class="partial-col"><i class="fas fa-minus"></i></div>
+                </div>
+                <div class="comparison-row">
+                    <div class="feature-name">Native GitOps</div>
+                    <div class="check-col"><i class="fas fa-check"></i></div>
+                    <div class="cross-col"><i class="fas fa-times"></i></div>
+                    <div class="check-col"><i class="fas fa-check"></i></div>
+                </div>
+                <div class="comparison-row">
+                    <div class="feature-name">Security Scanning</div>
+                    <div class="check-col"><i class="fas fa-check"></i></div>
+                    <div class="cross-col"><i class="fas fa-times"></i></div>
+                    <div class="check-col"><i class="fas fa-check"></i></div>
+                </div>
+                <div class="comparison-row">
+                    <div class="feature-name">Cross-Platform</div>
+                    <div class="check-col"><i class="fas fa-check"></i></div>
+                    <div class="check-col"><i class="fas fa-check"></i></div>
+                    <div class="check-col"><i class="fas fa-check"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="section-header">
+                <h2>Download OMAK</h2>
+                <p>Get started with OMAK on your preferred platform</p>
+            </div>
+            <div class="download-grid">
+                <div class="download-card">
+                    <div class="platform-icon">
+                        <i class="fab fa-windows"></i>
+                    </div>
+                    <h3>Windows</h3>
+                    <p>Windows 10/11 (x64)</p>
+                    <div class="download-options">
+                        <a href="#" class="btn btn-download">
+                            <i class="fas fa-download"></i>
+                            Download .exe
+                        </a>
+                        <a href="#" class="btn btn-download-alt">
+                            <i class="fas fa-box"></i>
+                            MSI Installer
+                        </a>
+                    </div>
+                </div>
+                <div class="download-card">
+                    <div class="platform-icon">
+                        <i class="fab fa-apple"></i>
+                    </div>
+                    <h3>macOS</h3>
+                    <p>macOS 10.15+ (Intel & Apple Silicon)</p>
+                    <div class="download-options">
+                        <a href="#" class="btn btn-download">
+                            <i class="fas fa-download"></i>
+                            Download .dmg
+                        </a>
+                        <a href="#" class="btn btn-download-alt">
+                            <i class="fas fa-terminal"></i>
+                            Homebrew
+                        </a>
+                    </div>
+                </div>
+                <div class="download-card">
+                    <div class="platform-icon">
+                        <i class="fab fa-linux"></i>
+                    </div>
+                    <h3>Linux</h3>
+                    <p>Ubuntu, CentOS, Fedora, Arch</p>
+                    <div class="download-options">
+                        <a href="#" class="btn btn-download">
+                            <i class="fas fa-download"></i>
+                            Download .deb
+                        </a>
+                        <a href="#" class="btn btn-download-alt">
+                            <i class="fas fa-box"></i>
+                            AppImage
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="installation-note">
+                <p><i class="fas fa-info-circle"></i> System requirements: 4GB RAM, 2GB disk space, Kubernetes CLI tools</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="community">
+        <div class="container">
+            <div class="section-header">
+                <h2>Join the OMAK Community</h2>
+                <p>Connect with developers, share experiences, and contribute to the project</p>
+            </div>
+            <div class="community-grid">
+                <a href="#" class="community-card">
+                    <div class="community-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p>Contribute code, report issues, and follow development</p>
+                </a>
+                <a href="#" class="community-card">
+                    <div class="community-icon">
+                        <i class="fab fa-discord"></i>
+                    </div>
+                    <h3>Discord</h3>
+                    <p>Real-time chat with the community and core team</p>
+                </a>
+                <a href="#" class="community-card">
+                    <div class="community-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Documentation</h3>
+                    <p>Comprehensive guides and API documentation</p>
+                </a>
+                <a href="#" class="community-card">
+                    <div class="community-icon">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <h3>Twitter</h3>
+                    <p>Latest updates and announcements</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-dharmachakra"></i>
+                        <span>OMAK</span>
+                    </div>
+                    <p>Orchestrate Multi-Cloud AKS with the power of modern Kubernetes management.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#download">Download</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Roadmap</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#docs">Documentation</a></li>
+                        <li><a href="#">API Reference</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#community">Community</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Status</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 OMAK. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

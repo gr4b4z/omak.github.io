@@ -1,0 +1,35 @@
+{
+  "name": "omak-website",
+  "version": "1.0.0",
+  "description": "Modern website for OMAK - Orchestrate Multi-Cloud AKS",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -p 3000",
+    "dev": "npx live-server --port=3000 --open=/",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "echo 'Deploy to your preferred hosting service'"
+  },
+  "keywords": [
+    "kubernetes",
+    "aks",
+    "multi-cloud",
+    "devops",
+    "container-orchestration"
+  ],
+  "author": "OMAK Team",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/omak-website.git"
+  },
+  "homepage": "https://your-domain.com",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+} 
